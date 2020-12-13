@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Age Poverty:The role of technology in homeless society</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Calum Dixon" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff3262">
+  <meta name="msapplication-TileColor" content="#ff3262">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+<nav>
+
+  <div class="nav-contents" onclick="myFunction(this); change_text(); menuToggle()">
+
+    <div class="menu-icon">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    </div>
+
+    <h4 id="open-menu">MENU</h4>
+
+  </div>
+
+</nav>
+
+<div class="nav-menu" id="menu-toggle">
+
+  <div class="nav-list-wrapper">
+
+    <div class="nav-list-item">
+      <a href="introduction.html">
+      <h4>Introduction</h4>
+      </a>
+    </div>
+
+    <div class="nav-list-item">
+      <a href="section-1.html">
+      <h5>Section 1</h5>
+      <h4>What does it actually mean to be homeless?</h4>
+      </a>
+    </div>
+
+    <div class="nav-list-item">
+      <a href="section-2.html">
+      <h5>Section 2</h5>
+      <h4>The role of technology in homeless living</h4>
+      </a>
+    </div>
+
+    <div class="nav-list-item">
+      <a href="section-3.html">
+      <h5>Section 3</h5>
+      <h4>What potential does technology have for tackling homelessness?</h4>
+      </a>
+    </div>
+
+    <div class="nav-list-item">
+      <a href="conclusion.html">
+      <h4>Conclusion</h4>
+      </a>
+    </div>
+
+    <div class="nav-list-item">
+      <a href="references.html">
+      <h4>References</h4>
+    </a>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="content-wrapper">
+
+<div class="page-top">
+
+<h1>New Age Poverty</h1>
+<h2>The Role of Technology in Homeless Society</h2>
+
+<img src="images/header-image.png" alt="" class="header-image"/>
+
+</div>
+
+<div class="content-block">
+
+<h3>Introduction</h3>
+
+<p class="para-after-title">The UK is facing a homelessness crisis. The current scale of homelessness in the UK is not completely clear as many that become homeless are never documented as such. The UK charity Shelter estimates that the nation's homeless population is 280,000.<a href="references.html#1" class="refrence-link"><sup>[1]</sup></a> However, numbers could be even higher as many people experiencing homelessness never reach out to local councils for help. Adding to this impact, homeless populations are rapidly rising in the UK. Shelter has reported that the number of households deemed to be homeless has increased by 23% between 2018 and 2019.<a href="references.html#2" class="refrence-link"><sup>[2]</sup></a> Unfortunately, these trends also show no sign of slowing down, with Crisis UK projecting that the UK homeless population will double to 570,000 by 2041.<a href="references.html#3" class="refrence-link"><sup>[3]</sup></a> Additionally, Shelter has reported that the number of UK households at risk of homeless has increased by 11.4% in England.<a href="references.html#4" class="refrence-link"><sup>[4]</sup></a> The increases in the number of at-risk households is a result of rising income inequality across the country. As the Financial Times have reported the median income of the UK's poorest 20% of households has dropped by 4.3% over the past two years. In addition, the UK's GINI coefficient (A metric of 0-100% which can be used to measure income inequality, the higher the percentage the more unequal the society) rose from 33.4% to 34.7%.<a href="references.html#5" class="refrence-link"><sup>[5]</sup></a></p>
+
+<p>This essay will explore what homelessness is and analyse the negative and positive effects that the information age has had on homeless populations in the UK. This will be achieved through the use of case studies, examples include, how Airbnb is driving up rent prices leading to homelessness and how the use of digital identities such as MyPass give homeless communities faster access to health and social care. These case studies will explain how technology has potentially contributed to the UK's rising homeless populations and how it has affected the lifestyles of those experiencing homelessness. However, before we can begin to analyse the impact of technology. We must first build a better understanding of what homelessness is. We can’t build a true understanding of technology’s impact on homelessness if we don’t have a basic foundational understanding of the problem.</p>
+
+<div class="section-controller">
+
+<a href="index.html" class="hidden-option"><p class="previous-section"><- Previous Section</p></a>
+
+<a href="section-1.html"><p class="next-section">Next Section -></p></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Writing and Design by Calum Dixon</p>
+
+</footer>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+
+<script>
+    function change_text() {
+      var i = document.getElementById("open-menu");
+      if (i.innerHTML === "MENU") {
+        i.innerHTML = "CLOSE";
+      } else {
+        i.innerHTML = "MENU";
+      }
+    }
+
+</script>
+
+<script>
+  var x = document.getElementById("menu-toggle");
+
+  function menuToggle() {
+    x.classList.toggle('nav-menu--visible');
+  }
+
+</script>
+
+</body>
+
+</html>
