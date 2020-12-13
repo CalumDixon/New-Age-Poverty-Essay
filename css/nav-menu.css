@@ -6,12 +6,56 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: fixed;
-  display: none;
-  z-index: 1; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  visibility: hidden; }
   .nav-menu--visible {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    visibility: visible;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards; }
+  .nav-menu--hidden {
+    -webkit-animation-name: fade-out;
+            animation-name: fade-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1;
+    visibility: visible; } }
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+    visibility: visible; }
+  to {
+    opacity: 0;
+    visibility: hidden; } }
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    visibility: visible; }
+  to {
+    opacity: 0;
+    visibility: hidden; } }
+.nav-menu {
+  visibility: hidden; }
 
 a {
   cursor: pointer; }
