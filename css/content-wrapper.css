@@ -16,17 +16,6 @@
 .content-wrapper-no-padding {
   padding-top: 0px; }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes fade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 @media (max-width: 768px) {
   .content-wrapper {
     max-width: 650px; } }
