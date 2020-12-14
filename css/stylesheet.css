@@ -426,7 +426,7 @@ a {
     max-height: 100vh; }
 
   .nav-list-item:last-of-type {
-    padding-bottom: 32px; } }
+    padding-bottom: 24px; } }
 .content-block {
   max-width: 600px;
   margin: 0 auto;
