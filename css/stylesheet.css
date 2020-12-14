@@ -279,6 +279,10 @@ nav {
     -webkit-animation-duration: 0.5s;
             animation-duration: 0.5s; }
 
+.body-lock {
+  height: 80vh;
+  overflow: hidden; }
+
 @-webkit-keyframes fade {
   from {
     opacity: 0; }
