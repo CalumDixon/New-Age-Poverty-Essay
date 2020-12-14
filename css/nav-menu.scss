@@ -8,6 +8,7 @@
   display: flex;
   z-index: 1;
   visibility: hidden;
+  overflow: scroll;
 
   &--visible {
     visibility:visible;
@@ -158,6 +159,13 @@ a{
     padding-top:80px;
     background: rgba(0, 0, 0, 1);
     box-sizing:border-box;
+    overflow: scroll;
+    max-height: 100vh;
   }
+
+  .nav-list-item:last-of-type {
+    padding-bottom: 32px;
+  }
+
 
 }

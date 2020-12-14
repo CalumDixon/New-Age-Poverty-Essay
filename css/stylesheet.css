@@ -261,7 +261,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  visibility: hidden; }
+  visibility: hidden;
+  overflow: scroll; }
   .nav-menu--visible {
     visibility: visible;
     -webkit-animation-name: fade;
@@ -420,7 +421,12 @@ a {
     padding-top: 80px;
     background: black;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; } }
+            box-sizing: border-box;
+    overflow: scroll;
+    max-height: 100vh; }
+
+  .nav-list-item:last-of-type {
+    padding-bottom: 32px; } }
 .content-block {
   max-width: 600px;
   margin: 0 auto;
